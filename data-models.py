@@ -42,6 +42,7 @@ print('My name is {}'.format(xml_dict['Family']['Myerscough']['Member'][0]['Name
 """
 
 Lastly, creating a dictionary out of a YAML file
+adding something else to YAML
 
 """
 
@@ -53,5 +54,5 @@ with open('data.yaml', 'r') as fy:
 
 yaml_dict = yaml.load(yaml_data, Loader=yaml.FullLoader)
 
-print(yaml_dict['Family']['Myerscough'][0]['Name'])
+print(yaml_dict['Family']['Myerscough'][1]['Name'])
 
