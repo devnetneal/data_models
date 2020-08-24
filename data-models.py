@@ -20,6 +20,7 @@ print(json_dict['Family']['Myerscough'][0]['Name'])
 """
 
 Second is to open XML and put into dictionary. XML minidom topretty xml is used to display the XML nicely
+Should return 'My Name is Neal'
 
 """
 
