@@ -3,7 +3,7 @@ from pprint import pprint
 
 """
 
-First is JSON to Dictionary, then print out first Myerscough Family name I am change A. Boo
+First is JSON to Dictionary, then print out first Myerscough Family name. This is Change B - the mightest Change!
 
 """
 
@@ -21,7 +21,7 @@ print(json_dict['Family']['Myerscough'][0]['Name'])
 
 Second is to open XML and put into dictionary. XML minidom topretty xml is used to display the XML nicely
 Should return 'My Name is Neal'
-updated
+updated - Also a change B change here!!!
 
 """
 
